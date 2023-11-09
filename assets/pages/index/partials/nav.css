@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    background-image: linear-gradient(90deg, #c18638d8, #080d14d0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(1px);
+    padding: 10px;
+}
+
+nav h2.logo{ 
+    color: var(--cor-azul);
+    width: 50%;
+    font-size: 2.1rem;
+    letter-spacing: 0.5rem;
+   
+}
+
+.opcoes a{
+    font-size: 30px
+}
+.opcoes a{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #C18638, #ffd49f) ;
+    color: var(--cor-azul);
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 5px 10px;
+}
+.opcoes a:hover{
+    background-image: linear-gradient(45deg,#ffd49f65, #C1863865) ;
+}
+nav{
+    border-bottom: 0.1px solid #ffffff;
+}
+/*Responsivo*/
+@media screen and (max-width: 1000px){
+
+    nav h2.logo{ 
+        color: var(--cor-azul);
+        width: 50%;
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+       
+    }
+    
+    .opcoes a{
+        font-size: .5rem
+    }
+    .opcoes a{
+        margin: 1px;
+        border-radius: 5px;
+}
+}

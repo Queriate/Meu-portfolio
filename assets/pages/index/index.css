@@ -1,0 +1,8 @@
+@import '../../global/global.css';
+
+@import './partials/nav.css';
+@import './partials/section-topo.css';
+@import './partials/section-sobre.css';
+@import './partials/section-trabalho.css';
+@import './partials/section-frase-efeito.css';
+@import './partials/footer.css';
