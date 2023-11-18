@@ -20,7 +20,7 @@ section.topo{
     justify-content: space-evenly;
     gap: 2rem;
     align-items: center;
-    min-height: 650px;
+    min-height: 680px;
 }
 
 .topo > div{
