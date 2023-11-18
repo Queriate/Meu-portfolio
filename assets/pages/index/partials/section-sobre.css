@@ -11,7 +11,7 @@ section.sobre{
     justify-content: space-evenly;
     gap: 2rem;
     align-items: center;
-    min-height: 650px;
+    min-height: 680px;
     text-align: justify;
 }
 section.sobre h3{
