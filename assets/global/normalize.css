@@ -8,6 +8,6 @@
     appearance: none;
 }
 body, html{
-    background-color: var(--cor-azul);
+    background-color: var(--azul-claro);
     height: 100vh;
 }
