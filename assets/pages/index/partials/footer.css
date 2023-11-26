@@ -5,3 +5,15 @@ footer.rodape{
     display: flex;
     height: 80px;    
 }
+
+@media (max-width: 576px){
+    footer.rodape{
+        width: 100%;
+        height: 40px;    
+    }
+
+    footer img{
+        max-width: 30px;
+    }
+    
+}
