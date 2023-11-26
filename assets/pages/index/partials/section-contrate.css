@@ -36,3 +36,22 @@ section.contrate a:visited {
 section.contrate a:hover {
     letter-spacing: 5px;
 }
+
+@media (max-width: 576px) {
+
+
+    section.contrate h1 {
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+
+    section.contrate a {
+        padding: 5px 25px;
+        border-radius: 50px;
+        letter-spacing: .1rem;
+    }
+
+    section.contrate a:hover {
+        letter-spacing: 2.5px;
+    }
+}
