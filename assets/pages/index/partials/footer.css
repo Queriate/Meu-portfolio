@@ -1,27 +1,7 @@
-.logotipo{
-    max-width: 95px;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
+footer.rodape{
+    background-color: var(--cor-branco);
     align-items: center;
-    gap: 2rem;
-    background-color: #fff;
-    }
-    
-    @media screen and (max-width: 1000px){
-
-        .logotipo{
-            max-width: 85px;
-        }
-        
-        footer{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
-            background-color: #fff;
-            }
-            
-    }
+    justify-content: center;
+    display: flex;
+    height: 80px;    
+}
